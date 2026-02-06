@@ -1,6 +1,3 @@
-# timer_app
-JavaScript Stop Watch Timer App
-
 # Focus Timer
 
 A modern, web-based focus timer designed to help you stay productive. Built with vanilla HTML, CSS, and JavaScript, featuring a sleek "glassmorphism" aesthetic.
