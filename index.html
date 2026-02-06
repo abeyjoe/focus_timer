@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Roboto+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Focus Timer</h1>
+        </header>
+
+        <main>
+            <div class="timer-wrapper">
+                <div class="timer-column">
+                    <button class="stepper-btn up" id="min-up" aria-label="Increase minutes">▲</button>
+                    <div class="time-value" id="minutes">05</div>
+                    <button class="stepper-btn down" id="min-down" aria-label="Decrease minutes">▼</button>
+                </div>
+                <div class="timer-separator">:</div>
+                <div class="timer-column">
+                    <button class="stepper-btn up" id="sec-up" aria-label="Increase seconds">▲</button>
+                    <div class="time-value" id="seconds">00</div>
+                    <button class="stepper-btn down" id="sec-down" aria-label="Decrease seconds">▼</button>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start-btn" class="btn btn-primary">Start</button>
+                <button id="reset-btn" class="btn btn-secondary">Reset</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
